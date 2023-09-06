@@ -26,6 +26,10 @@ public:
 
     void addIngredient(string ingredient);
     void addInstruction(string instruction);
+    void placeInstruction(string instruction, int index);
+
+    void removeIngredient(string ingredient);
+    void removeInstruction(string instruction);
 
     string getName();
     vector<string> getIngredients();

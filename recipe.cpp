@@ -41,6 +41,26 @@ void Recipe::addInstruction(string instruction){
     instructions.push_back(instruction);
 }
 
+void Recipe::placeInstruction(string instruction, int index){
+    instructions.insert(instructions.begin() + index, instruction);
+}
+
+void Recipe::removeIngredient(string ingredient){
+    for (int i = 0; i < ingredients.size(); i++){
+        if (ingredients[i] == ingredient){
+            ingredients.erase(ingredients.begin() + i);
+        }
+    }
+}
+
+void Recipe::removeInstruction(string instruction){
+    for (int i = 0; i < instructions.size(); i++){
+        if (instructions[i] == instruction){
+            instructions.erase(instructions.begin() + i);
+        }
+    }
+}
+
 string Recipe::getName(){
     return name;
 }
