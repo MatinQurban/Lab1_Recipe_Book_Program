@@ -22,7 +22,7 @@ public:
 
     void addPostInstruction(string postInstruction);
 
-    void printRecipe();
+    void printRecipe() const override;
 
 private:
     vector<string> postInstructions;

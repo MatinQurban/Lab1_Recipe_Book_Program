@@ -40,16 +40,8 @@ void RecipeWithPostInstructions::addPostInstruction(string postInstruction){
     postInstructions.push_back(postInstruction);
 }
 
-void RecipeWithPostInstructions::printRecipe(){
-    cout << "Recipe: " << name << endl;
-    cout << "Ingredients: " << endl;
-    for (int i = 0; i < ingredients.size(); i++){
-        cout << ingredients[i] << endl;
-    }
-    cout << "Instructions: " << endl;
-    for (int i = 0; i < instructions.size(); i++){
-        cout << instructions[i] << endl;
-    }
+void RecipeWithPostInstructions::printRecipe() const{
+    Recipe::printRecipe();
     cout << "Post Instructions: " << endl;
     for (int i = 0; i < postInstructions.size(); i++){
         cout << postInstructions[i] << endl;

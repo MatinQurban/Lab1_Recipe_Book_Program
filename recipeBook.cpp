@@ -23,7 +23,7 @@ void RecipeBook::addRecipe(Recipe* recipe){
 }
 
 void RecipeBook::printRecipeBook(){
-    cout << "Recipe Book: " << name << endl;
+    cout << "Recipe Book: \n" << name << endl;
     for (int i = 0; i < recipes.size(); i++){
         recipes[i]->printRecipe();
     }

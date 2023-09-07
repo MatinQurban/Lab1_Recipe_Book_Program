@@ -35,7 +35,7 @@ public:
     vector<string> getIngredients();
     vector<string> getInstructions();
 
-    void printRecipe();
+    virtual void printRecipe() const;
 
 protected:
     string name;

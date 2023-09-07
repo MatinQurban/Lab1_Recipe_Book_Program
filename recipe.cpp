@@ -73,13 +73,13 @@ vector<string> Recipe::getInstructions(){
     return instructions;
 }
 
-void Recipe::printRecipe(){
-    cout << "Recipe: " << name << endl;
-    cout << "Ingredients: " << endl;
+void Recipe::printRecipe() const{
+    cout << "\n\nRecipe: " << name << endl;
+    cout << "\nIngredients: " << endl;
     for (int i = 0; i < ingredients.size(); i++){
         cout << ingredients[i] << endl;
     }
-    cout << "Instructions: " << endl;
+    cout << "\nInstructions: " << endl;
     for (int i = 0; i < instructions.size(); i++){
         cout << instructions[i] << endl;
     }
