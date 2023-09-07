@@ -16,14 +16,14 @@ public:
     void setName(string name);
     string getName();
 
-    void addRecipe(RecipeWithPostInstructions recipe);
+    void addRecipe(Recipe* recipe);
     void printRecipeBook();
 
-    Recipe getRecipe(string name);
+    Recipe* getRecipe(string name);
 
 private:
     string name;
-    vector<RecipeWithPostInstructions> recipes;
+    vector<Recipe*> recipes;
 };
 
 #endif
