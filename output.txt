@@ -1,0 +1,70 @@
+Recipe Book: 
+My Recipe Book
+
+
+Recipe: Pancakes
+
+Ingredients: 
+Flour
+Eggs
+Milk
+Butter
+
+Instructions: 
+Mix ingredients together
+Cook on pan
+Flip pancake
+
+
+Recipe: French Toast
+
+Ingredients: 
+Bread
+Eggs
+Milk
+Butter
+
+Instructions: 
+Mix ingredients together
+Cook on pan
+Flip bread
+
+
+Recipe: Scrambled Eggs
+
+Ingredients: 
+Eggs
+Milk
+Butter
+
+Instructions: 
+Mix ingredients together
+Cook on pan
+
+
+Recipe: Apple Pie
+
+Ingredients: 
+Apples
+Sugar
+Flour
+Butter
+
+Instructions: 
+Mix ingredients together
+Cook in oven
+Take out of oven
+
+
+Recipe: Chocolate Chip Cookies
+
+Ingredients: 
+Chocolate Chips
+Sugar
+Cookie dough
+
+Instructions: 
+Preheat oven to 350 degrees
+Mix ingredients together
+Bake in oven for 10 minutes
+Take out of oven
